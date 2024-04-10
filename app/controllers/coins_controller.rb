@@ -3,7 +3,7 @@ class CoinsController < ApplicationController
 
   # GET /coins or /coins.json
   def index
-    @coins = Coin.all
+    @coins = Coin.all   # seleciona todas as moedas e coloca dentro da variável de instância coins
   end
 
   # GET /coins/1 or /coins/1.json
@@ -57,7 +57,7 @@ class CoinsController < ApplicationController
     end
   end
 
-  private
+  private   # métodos acessados somente pelo controller
     # Use callbacks to share common setup or constraints between actions.
     def set_coin
       @coin = Coin.find(params[:id])

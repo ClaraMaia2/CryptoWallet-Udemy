@@ -3,8 +3,8 @@
 <%= render @coin %>
 
 <div>
-  <%= link_to "Edit this coin", edit_coin_path(@coin) %> |
+  <%= link_to "Edit", edit_coin_path(@coin) %> |
   <%= link_to "Back to coins", coins_path %>
 
-  <%= button_to "Destroy this coin", @coin, method: :delete %>
+  <%= button_to "Delete", @coin, method: :delete, data: {confirm: 'Are you sure?'} %>
 </div>
