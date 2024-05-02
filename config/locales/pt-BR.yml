@@ -1,0 +1,26 @@
+pt-BR:
+  current_locale: "Português do Brasil"
+  welcome: "Bem Vindo!"
+  hello: "Olá mundo"
+  links:
+    edit: "Editar"
+    show: "Mostrar" 
+    delete: "Apagar"
+    new: "Novo"
+    back: "Voltar"
+  messages:
+    welcome: "Essa é a CryptoWallet, uma aplicação em que você pode cadastrar e acompanhar suas criptomoedas"
+    menu: "Para começar, selecione umas das opções abaixo:"
+    confirm: "Tem certeza?"
+  editing:
+    coin: "Editando Moeda"
+    mining_type: "Editando Tipo de Mineração"
+  showing:
+    coin: "Mostrando Moeda"
+    mining_type: "Mostrando Tipo de Mineração"
+  deleting:
+    coin: "Apagando Moeda"
+    mining_type: "Apagando Tipo de Mineração"
+  new:
+    coin: "Nova Moeda"
+    mining_type: "Novo Tipo de Mineração"

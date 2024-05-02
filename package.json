@@ -1,0 +1,15 @@
+{
+  "name": "crypto_wallet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ClaraMaia2/CryptoWallet-Udemy.git",
+  "author": "Clara <claraemarina80@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1",
+    "notify-js-legacy": "^0.4.1",
+    "popper.js": "^1.16.1"
+  },
+  "packageManager": "yarn@4.1.1"
+}

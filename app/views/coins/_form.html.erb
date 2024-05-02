@@ -6,32 +6,35 @@
       <ul>
         <% coin.errors.each do |error| %>
           <li><%= error.full_message %></li>
-        <% end %>
+        <% end %> 
       </ul>
     </div>
   <% end %>
 
-  <div>
+  <div class="form-group">
     <%= form.label :description, style: "display: block" %>
-    <%= form.text_field :description %>
+    <%= form.text_field :description, class: "form-control", placeholder: "Bitcoin" %>
   </div>
 
-  <div>
+  <div class="form-group">
     <%= form.label :acronym, style: "display: block" %>
-    <%= form.text_field :acronym %>
+    <%= form.text_field :acronym, class: "form-control", placeholder: "BTC" %>
   </div>
 
-  <div>
+  <div class="form-group">
     <%= form.label :url_image, style: "display: block" %>
-    <%= form.text_field :url_image %>
+    <%= form.text_field :url_image, class: "form-control", placeholder: "http://img.url/bitcoin.png" %>
   </div>
 
-  <div>
+  <div class="form-group">
     <%= form.label :mining_type, style: "display:block" %>
-    <%= form.select("mining_type_id", MiningType.all.collect {|m| [ m.description, m.id]}, {include_blank: "Select..."}) %>
+    <%= form.select("mining_type_id", @mining_type_options, {include_blank: "Select..."}, class: "form-select")%>
   </div>
 
+  <br>
+
   <div>
-    <%= form.submit %>
+    <%= form.submit nil, class: "btn btn-primary" %>
+    <%= button_to t('links.delete'), @coin, method: :delete, data: {confirm: 'Are you sure?'}, class: "btn btn-primary" %>
   </div>
 <% end %>

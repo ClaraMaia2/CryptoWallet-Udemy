@@ -24,8 +24,33 @@
 # must be quoted to be interpreted as strings. For example:
 #
 #     en:
-#       "yes": yup
+#       "yes": yup 
 #       enabled: "ON"
-
+ 
 en:
+  current_locale: "English (International)"
+  welcome: "Welcome!"
   hello: "Hello world"
+  links:
+    edit: "Edit"
+    show: "Show"
+    delete: "Delete"
+    new: "New"
+    back: "Back"
+  messages:
+    welcome: "This is CryptoWallet, an aplication that you can register and follow up on your crypto coins"
+    menu: "To start, select one of the options below:"
+    confirm: "Are you sure?"
+  editing:
+    coin: "Editing Coin"
+    mining_type: "Editing Mining Type"
+  showing:
+    coin: "Showing Coin"
+    mining_type: "Showing Mining Type"
+  deleting:
+    coin: "Deleting Coin"
+    mining_type: "Deleting Mining Type"
+  new:
+    coin: "New Coin"
+    mining_type: "New Mining Type"
+
