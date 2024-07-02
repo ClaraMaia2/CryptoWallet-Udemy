@@ -1,6 +1,6 @@
 # CryptoWallet
 <div align="center">
-  <img width= "50%" src="https://github.com/ClaraMaia2/CryptoWallet-Udemy/assets/102636646/8658f0bd-d1a3-41e1-b56c-75020fb9f49c">
+  <img width= "50%" src="https://github.com/ClaraMaia2/CryptoWallet-Udemy/assets/102636646/1a23559a-e8cf-48c3-9c5b-aa3ebe80df72">
 </div>
 
 ## Index
