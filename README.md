@@ -29,3 +29,11 @@ Finally, open a web page with
 ```
 localhost:3000
 ```
+
+## 📜 License
+
+This project is for learning purposes only and is not intended for production use. Feel free to explore and learn from it!
+
+## ⭐ If you found this project helpful, consider giving it a star!
+
+<br>
